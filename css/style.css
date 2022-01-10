@@ -1,0 +1,405 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* li {
+  display: inline;
+} */
+
+li p {
+  display: inline-block;
+}
+
+a .nav {
+  display: inline-block;
+  width: 37px;
+  height: 23px;
+  text-align: left;
+  font: normal normal normal 18px/23px Univers;
+  letter-spacing: 0px;
+  color: #2e2e2e;
+  text-transform: uppercase;
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* p .footer{
+  
+} */
+
+.secondary-nav {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 56px;
+  background: #000000 0% 0% no-repeat padding-box;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
+
+.main-nav {
+  position: absolute;
+  top: 56px;
+  left: 0px;
+  width: 1920px;
+  height: 111px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
+
+.header--phone__icon {
+  position: absolute;
+  top: 18px;
+  left: 1199px;
+  width: 14px;
+  height: 19px;
+}
+
+.header--phone__value {
+  position: absolute;
+  top: 18px;
+  left: 1223px;
+  width: 98px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 16px/19px Univers LT Std;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header--service__icon {
+  position: absolute;
+  top: 15px;
+  left: 1451px;
+  width: 25px;
+  height: 25px;
+}
+
+.header--service__value {
+  position: absolute;
+  top: 19px;
+  left: 1484px;
+  width: 56px;
+  height: 19px;
+  text-align: left;
+  font: normal normal normal 16px/19px Univers LT Std;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header--map__icon {
+  position: absolute;
+  top: 16px;
+  left: 1586px;
+  width: 17px;
+  height: 23px;
+}
+
+.header--map__value {
+  position: absolute;
+  top: 19px;
+  left: 1612px;
+  width: 34px;
+  height: 19px;
+  text-align: left;
+  font: normal normal normal 16px/19px Univers LT Std;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header--contact__icon {
+  position: absolute;
+  top: 15px;
+  left: 1683px;
+  width: 20px;
+  height: 28px;
+}
+
+.header--contact__value {
+  position: absolute;
+  top: 19px;
+  left: 1711px;
+  width: 58px;
+  height: 19px;
+  text-align: left;
+  font: normal normal normal 16px/19px Univers LT Std;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav--maserati {
+  position: relative;
+  top: 11px;
+  left: 151px;
+  width: 189px;
+  height: 77px;
+}
+
+.nav--stepone {
+  position: relative;
+  top: 11px;
+  left: 163px;
+  width: 81px;
+  height: 85px;
+}
+
+.nav--brand {
+  display: inline;
+  position: absolute;
+  top: 21px;
+  left: 454px;
+  width: 146px;
+  height: 71px;
+  text-align: left;
+  font: normal normal 300 32px/33px Univers;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.nav--new {
+  position: absolute;
+  top: 42px;
+  left: 935px;
+  width: 37px;
+  height: 23px;
+  text-decoration: none;
+}
+
+.nav--used {
+  position: absolute;
+  top: 42px;
+  left: 1017px;
+  width: 41px;
+  height: 23px;
+  text-decoration: none;
+}
+
+.nav--specials {
+  position: absolute;
+  top: 42px;
+  left: 1106px;
+  width: 73px;
+  height: 23px;
+  text-decoration: none;
+}
+
+.nav--service {
+  position: absolute;
+  top: 42px;
+  left: 1231px;
+  width: 132px;
+  height: 23px;
+  text-decoration: none;
+}
+
+.nav--sell {
+  position: absolute;
+  top: 42px;
+  left: 1425px;
+  width: 90px;
+  height: 23px;
+  text-decoration: none;
+}
+
+.nav--finance {
+  position: absolute;
+  top: 42px;
+  left: 1572px;
+  width: 67px;
+  height: 23px;
+  text-decoration: none;
+}
+
+.nav--about {
+  position: absolute;
+  top: 42px;
+  left: 1690px;
+  width: 78px;
+  height: 23px;
+  text-decoration: none;
+}
+
+.background--banner {
+  position: absolute;
+  top: 167px;
+  left: -126.00028228759766px;
+  width: 2091px;
+  height: 844px;
+  background-image: url("../images/backgroundMainBanner.png");
+  opacity: 1;
+}
+
+.background--factory {
+  position: relative;
+  top: 354px;
+  left: 245px;
+  width: 897px;
+  height: 429px;
+  background: transparent url("../images/factory.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.background--gray {
+  position: absolute;
+  top: 1010px;
+  left: 0px;
+  width: 1920px;
+  height: 1026px;
+  background: transparent url("../images/backgroundGray.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.car {
+  position: relative;
+  top: 316px;
+  left: 427px;
+  width: 1067px;
+  height: 534px;
+}
+
+.main--title {
+  display: inline;
+  position: absolute;
+  top: 131px;
+  left: 511px;
+  width: 1000px;
+  height: 62px;
+  text-align: center;
+  font: normal normal normal 50px/62px Univers;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.main--message__container {
+  position: absolute;
+  top: 200px;
+  left: 511px;
+  width: 899px;
+  height: 121px;
+  text-align: center;
+}
+
+.main--message__value {
+  position: static;
+  display: inline;
+  font: normal normal 300 25px/36px Univers;
+  letter-spacing: 0px;
+  color: #656565;
+  opacity: 1;
+}
+
+.footer {
+  position: absolute;
+  top: 2036px;
+  left: 0px;
+  width: 1920px;
+  height: 143px;
+  background: #333436 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.footer--copyright {
+  display: inline;
+  position: relative;
+  top: 60px;
+  left: 152px;
+  width: 381px;
+  height: 19px;
+  text-align: left;
+  font: normal normal normal 16px/19px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.footer--directions {
+  display: inline;
+  position: relative;
+  top: 40px;
+  left: 1157px;
+  text-align: left;
+  font: normal normal normal 16px/19px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.footer--contact {
+  display: inline;
+  position: relative;
+  top: 20px;
+  left: 1307px;
+  text-align: left;
+  font: normal normal normal 16px/19px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.footer--about {
+  display: inline;
+  position: relative;
+  top: 0px;
+  left: 1441px;
+  text-align: left;
+  font: normal normal normal 16px/19px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.footer--privacy {
+  display: inline;
+  position: relative;
+  top: -20px;
+  left: 1562px;
+  text-align: left;
+  font: normal normal normal 16px/19px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.footer--sitemap {
+  display: inline;
+  position: relative;
+  top: -40px;
+  left: 1692px;
+  text-align: left;
+  font: normal normal normal 16px/19px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.get--value {
+  position: relative;
+  top: 300px;
+  left: 753px;
+  width: 650px;
+  height: 98px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  opacity: 1;
+  text-align: center;
+  font: normal normal normal 40px/50px Univers;
+  letter-spacing: 0px;
+  color: #000000;
+}
