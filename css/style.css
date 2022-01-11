@@ -4,32 +4,9 @@
   padding: 0;
 }
 
-/* li {
-  display: inline;
-} */
+/*  */
 
-li p {
-  display: inline-block;
-}
-
-a .nav {
-  display: inline-block;
-  width: 37px;
-  height: 23px;
-  text-align: left;
-  font: normal normal normal 18px/23px Univers;
-  letter-spacing: 0px;
-  color: #2e2e2e;
-  text-transform: uppercase;
-  opacity: 1;
-  text-decoration: none;
-}
-
-/* p .footer{
-  
-} */
-
-.secondary-nav {
+.black-header {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -40,7 +17,7 @@ a .nav {
   -webkit-backdrop-filter: blur(30px);
 }
 
-.main-nav {
+.white-header {
   position: absolute;
   top: 56px;
   left: 0px;
@@ -51,7 +28,9 @@ a .nav {
   -webkit-backdrop-filter: blur(30px);
 }
 
-.header--phone__icon {
+/* position and size of the upper navbar icons */
+
+#black-nav--phone__icon {
   position: absolute;
   top: 18px;
   left: 1199px;
@@ -59,20 +38,7 @@ a .nav {
   height: 19px;
 }
 
-.header--phone__value {
-  position: absolute;
-  top: 18px;
-  left: 1223px;
-  width: 98px;
-  height: 19px;
-  text-align: left;
-  font: normal normal bold 16px/19px Univers LT Std;
-  letter-spacing: 0px;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.header--service__icon {
+#black-nav--service__icon {
   position: absolute;
   top: 15px;
   left: 1451px;
@@ -80,20 +46,7 @@ a .nav {
   height: 25px;
 }
 
-.header--service__value {
-  position: absolute;
-  top: 19px;
-  left: 1484px;
-  width: 56px;
-  height: 19px;
-  text-align: left;
-  font: normal normal normal 16px/19px Univers LT Std;
-  letter-spacing: 0px;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.header--map__icon {
+#black-nav--map__icon {
   position: absolute;
   top: 16px;
   left: 1586px;
@@ -101,20 +54,7 @@ a .nav {
   height: 23px;
 }
 
-.header--map__value {
-  position: absolute;
-  top: 19px;
-  left: 1612px;
-  width: 34px;
-  height: 19px;
-  text-align: left;
-  font: normal normal normal 16px/19px Univers LT Std;
-  letter-spacing: 0px;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.header--contact__icon {
+#black-nav--contact__icon {
   position: absolute;
   top: 15px;
   left: 1683px;
@@ -122,20 +62,52 @@ a .nav {
   height: 28px;
 }
 
-.header--contact__value {
-  position: absolute;
-  top: 19px;
-  left: 1711px;
-  width: 58px;
-  height: 19px;
+/* UI of the upper navbar string-items  */
+
+a.black-nav--value {
+  display: inline-block;
+  position: relative;
   text-align: left;
-  font: normal normal normal 16px/19px Univers LT Std;
+  font: normal normal bold 16px/19px Univers LT Std;
   letter-spacing: 0px;
   color: #ffffff;
   text-decoration: none;
+  opacity: 1;
 }
 
-.nav--maserati {
+/* position and size of the upper navbar string-items  */
+
+#black-nav--phone__value {
+  top: 20px;
+  left: 1223px;
+  width: 98px;
+  height: 19px;
+}
+
+#black-nav--service__value {
+  top: 0px;
+  left: 1484px;
+  width: 56px;
+  height: 19px;
+}
+
+#black-nav--map__value {
+  top: -20px;
+  left: 1612px;
+  width: 34px;
+  height: 19px;
+}
+
+#black-nav--contact__value {
+  top: -40px;
+  left: 1711px;
+  width: 58px;
+  height: 19px;
+}
+
+/* Brand and logos */
+
+#white-nav--maserati {
   position: relative;
   top: 11px;
   left: 151px;
@@ -143,7 +115,7 @@ a .nav {
   height: 77px;
 }
 
-.nav--stepone {
+#white-nav--stepone {
   position: relative;
   top: 11px;
   left: 163px;
@@ -151,7 +123,7 @@ a .nav {
   height: 85px;
 }
 
-.nav--brand {
+h1.white-nav--brand {
   display: inline;
   position: absolute;
   top: 21px;
@@ -164,67 +136,69 @@ a .nav {
   color: #000000;
 }
 
-.nav--new {
+/* UI of the lower navbar string-items  */
+
+a.white-nav--value {
+  display: inline-block;
   position: absolute;
+  text-align: left;
+  font: normal normal normal 18px/23px Univers;
+  letter-spacing: 0px;
+  color: #2e2e2e;
+  text-transform: uppercase;
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* position and size of the lower navbar string-items */
+
+#white-nav--new {
   top: 42px;
   left: 935px;
   width: 37px;
   height: 23px;
-  text-decoration: none;
 }
 
-.nav--used {
-  position: absolute;
+#white-nav--used {
   top: 42px;
   left: 1017px;
   width: 41px;
   height: 23px;
-  text-decoration: none;
 }
 
-.nav--specials {
-  position: absolute;
+#white-nav--specials {
   top: 42px;
   left: 1106px;
   width: 73px;
   height: 23px;
-  text-decoration: none;
 }
 
-.nav--service {
-  position: absolute;
+#white-nav--service {
   top: 42px;
   left: 1231px;
-  width: 132px;
+  width: 174px;
   height: 23px;
-  text-decoration: none;
 }
 
-.nav--sell {
-  position: absolute;
+#white-nav--sell {
   top: 42px;
   left: 1425px;
   width: 90px;
   height: 23px;
-  text-decoration: none;
 }
 
-.nav--finance {
-  position: absolute;
+#white-nav--finance {
   top: 42px;
   left: 1572px;
   width: 67px;
   height: 23px;
-  text-decoration: none;
 }
 
-.nav--about {
-  position: absolute;
+#white-nav--about {
   top: 42px;
   left: 1690px;
-  width: 78px;
+  width: 102px;
   height: 23px;
-  text-decoration: none;
 }
 
 .background--banner {
@@ -270,8 +244,8 @@ a .nav {
 .main--title {
   display: inline;
   position: absolute;
-  top: 131px;
-  left: 511px;
+  top: 104px;
+  left: 460px;
   width: 1000px;
   height: 62px;
   text-align: center;
@@ -283,9 +257,9 @@ a .nav {
 
 .main--message__container {
   position: absolute;
-  top: 200px;
-  left: 511px;
-  width: 899px;
+  top: 226px;
+  left: 510px;
+  width: 900px;
   height: 121px;
   text-align: center;
 }
@@ -392,7 +366,7 @@ a .nav {
 .get--value {
   position: relative;
   top: 300px;
-  left: 753px;
+  left: 635px;
   width: 650px;
   height: 98px;
   border: 2px solid #000000;
