@@ -105,7 +105,7 @@ a.black-nav--value {
   height: 19px;
 }
 
-/* Brand and logos */
+/* upper navbar brand and logos */
 
 #white-nav--maserati {
   position: relative;
@@ -251,6 +251,16 @@ a.white-nav--value {
   opacity: 1;
 }
 
+hr {
+  position: relative;
+  top: 180px;
+  left: 909px;
+  width: 102px;
+  height: 6px;
+  background-color: black;
+  border-radius: 4px;
+}
+
 .main-message {
   display: inline-block;
   position: absolute;
@@ -275,7 +285,7 @@ a.white-nav--value {
 
 button {
   position: absolute;
-  top: 750px;
+  top: 780px;
   left: 635px;
   width: 650px;
   height: 86px;
@@ -283,7 +293,7 @@ button {
   border-radius: 8px;
   opacity: 1;
   text-align: center;
-  font: normal normal normal 40px/50px Univers;
+  font: normal normal normal 35px/40px Univers;
   letter-spacing: 0px;
   color: #000000;
 }
